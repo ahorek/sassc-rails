@@ -25,7 +25,6 @@ Gem::Specification.new do |spec|
 
   # Unfortunately we require sass for now, so that we can
   # reuse portions of the Sprockets template
-  spec.add_dependency 'sass'
   spec.add_dependency "sassc", "~> 2.0"
 
   spec.add_dependency "tilt"
